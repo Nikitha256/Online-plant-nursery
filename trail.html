@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <title>Mouse_Event_Listener</title>
+<script type = "text/javascript">
+	window.addEventListener( "load", start, false );
+	
+	function start()
+	{
+	document.getElementById("picture").addEventListener("mouseover", over, false );
+	document.getElementById("picture").addEventListener("mouseout", out, false );
+	}
+
+	function over()
+	{
+	 document.getElementById("picture").setAttribute( "src", "petrea.jpeg");
+	}
+
+	function out()
+	{
+	document.getElementById("picture").setAttribute( "src", "bpaw.jpeg");
+	}
+	
+</script> 
+</head>
+<body>
+
+	<img src = "bpaw.jpeg" id = "picture" alt = "Heading Image">
+
+</body>
+ </html>

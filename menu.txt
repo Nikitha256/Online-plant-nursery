@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Life Cycle Management Website</title>
+      \\<link rel="stylesheet" href="https://unpkg.com/swiper@7.0.0/swiper-bundle.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7.0.0/swiper-bundle.min.css">\\
+        <link rel="stylesheet" href="niki.css">
+
+    </head>
+<body>
+
+    <header class="header">
+        <div id="menu-btn" class="phase1"></div>
+        <a href="#" class="logo">LMS <i class="phase2"></i></a>
+
+        <nav class="navbar">
+            <a href="HOME">HOME</a>
+            <a href="FEATURES">FEATURES</a>
+            <a href="BENEFITS">BENEFITS</a>
+            <a href="FAQ">FAQ</a>
+            <a href="BLOG">BLOG</a>
+            <a href="CONTACT US">CONTACT US</a>
+        </nav>
+        <a href="#" class="btn"></a>
+    </header>
+</body>
